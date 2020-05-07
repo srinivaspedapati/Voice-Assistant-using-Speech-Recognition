@@ -56,7 +56,7 @@
 
 7. **[wolframalpha](https://pypi.org/project/wolframalpha/#files)** - [WolframAlpha](https://www.wolframalpha.com/) is a computational knowledge engine or answer engine that answers  our basic mathematical computational querys or general questions.
 
-[nstalling Wheel Package Guide](https://www.youtube.com/watch?v=MzV4N4XUvYc)
+[Installing Wheel Package Guide](https://www.youtube.com/watch?v=MzV4N4XUvYc)
 
 Some of the modules come pre-installed with python.
 
