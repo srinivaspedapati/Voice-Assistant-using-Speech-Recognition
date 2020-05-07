@@ -45,19 +45,19 @@ Some of the pre-defined commands that the pi can understand are:
 * pi _shutdown_
 
 ***
-## Requirements:
+## **Requirements:**
 
 1. Desktop (Windows OS)
 2. Python version supported: 3.5+
 3. Microsoft Speech API [[SAPI](https://www.microsoft.com/en-in/download/details.aspx?id=27226)]
 
-## Working:
+## **Working:**
 
    <p align="center">
    <img width="550" height="550" src="https://user-images.githubusercontent.com/64901486/81280337-f1c4c780-9075-11ea-97ca-3ca229cd11ae.PNG">
    </p>
    
-## Scheduling Python Script on Start-Up:
+## **Scheduling Python Script on Start-Up:**
 
 To Automate the Voice-Assistant Pi on start-up, we need to schedule the python script to run when the system starts, using following steps:
 
