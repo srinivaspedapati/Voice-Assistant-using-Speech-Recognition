@@ -52,9 +52,8 @@ Some of the pre-defined commands that the pi can understand are:
 3. Microsoft Speech API [[SAPI](https://www.microsoft.com/en-in/download/details.aspx?id=27226)]
 
 ## WORKING:
-
    <p align="center">
-   <img width="450" height="550" src="https://user-images.githubusercontent.com/64901486/81280337-f1c4c780-9075-11ea-97ca-3ca229cd11ae.PNG">
+   <img width="550" height="550" src="https://user-images.githubusercontent.com/64901486/81280337-f1c4c780-9075-11ea-97ca-3ca229cd11ae.PNG">
    </p>
 ## Scheduling Python Script on Start-Up
 
