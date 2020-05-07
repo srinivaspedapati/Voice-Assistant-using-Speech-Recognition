@@ -42,17 +42,11 @@
    
 ## Python Libraries: 
 
-1. **SpeechRecognition** - Library for performing speech recognition, with support for several engines and APIs, online and offline.
-	                   Speech recognition engine/API support:
-							       * CMU Sphinx (works offline)
-							       * Google Speech Recognition
-							       * Google Cloud Speech API
-						       	       * Wit.ai
-						               * Microsoft Bing Voice Recognition
-						       	       * Houndify API
-							       * IBM Speech to Text
-							       * Snowboy Hotword Detection (works offline)
-                        The SpeechRecognition module requires [PyAudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) Module for Microphone input
+1. [**SpeechRecognition**](https://pypi.org/project/SpeechRecognition/#files) - Library for performing speech recognition, with support for several engines and APIs, online and offline. The SpeechRecognition module requires [PyAudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) Module for Microphone input.
+
+2. **[win32com](https://pypi.org/project/pywin32/)** - This module allows us to easily access Window’s Component Object Model (COM) and control Microsoft applications via python. In this script, we use this module to invoke SAPI.
+
+3. 
 
 ## Scheduling Python Script on Start-Up:
 
