@@ -70,3 +70,6 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
   <![SS2](https://user-images.githubusercontent.com/64901486/81270367-42352880-9068-11ea-83ea-6c90e3cdc407.PNG) />
   </p>
   
+  <p align="center">
+  <img width="600" height="200" src="https://user-images.githubusercontent.com/64901486/81270367-42352880-9068-11ea-83ea-     6c90e3cdc407.PNG">
+</p>
