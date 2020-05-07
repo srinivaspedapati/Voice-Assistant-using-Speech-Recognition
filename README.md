@@ -65,10 +65,6 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
    ![SS1](https://user-images.githubusercontent.com/64901486/81271504-d0f67500-9069-11ea-8586-b040e96daf93.PNG)
 
    Save the Text Document as batch file using the _.bat_ extension
-   
-  <p align="center">
-  <![SS2](https://user-images.githubusercontent.com/64901486/81270367-42352880-9068-11ea-83ea-6c90e3cdc407.PNG) />
-  </p>
   
   <p align="center">
   <img width="600" height="450" src="https://user-images.githubusercontent.com/64901486/81270367-42352880-9068-11ea-83ea-6c90e3cdc407.PNG">
