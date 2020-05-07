@@ -54,7 +54,7 @@ Some of the pre-defined commands that the pi can understand are:
 ## Scheduling Python Script on Start-Up
 
 To Automate the Voice-Assistant Pi on start-up, we need to schedule the python script to run when the system starts, using following steps:
-1. **Create a Batch File**
+1.**Create a Batch File**
 
    Open a Text Document and Add python.exe and python script path to it in the below syntax:
    
@@ -72,29 +72,26 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
   
  2. **Open Task Scheduler**
 
- Create a Basic Task & Enter the Name and Description of the Task, Click **Next**.
-    
-  <p align="center">
-  <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270381-46614600-9068-11ea-8b8a-d739792daa87.PNG">
-  </p>
+      Create a Basic Task & Enter the Name and Description of the Task, Click **Next**.
+      <p align="center">
+      <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270381-46614600-9068-11ea-8b8a-d739792daa87.PNG">
+      </p>
 
-   Click **Next**. Select the Task Trigger Time, as **When computer turns on**, Click **Next**.
+      Click **Next**. Select the Task Trigger Time, as **When computer turns on**, Click **Next**.
+     <p align="center">
+     <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270386-495c3680-9068-11ea-906d-40b6154e3160.png">
+     </p>
 
-  <p align="center">
-  <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270386-495c3680-9068-11ea-906d-40b6154e3160.png">
-  </p>
+      Now Select the Action to Perform, as **start a program**, Click **Next**.
+     <p align="center">
+     <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270389-4a8d6380-9068-11ea-8c3e-b02b1b670a25.png">
+     </p>
 
-   Now Select the Action to Perform, as **start a program**, Click **Next**.
-  <p align="center">
-  <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270389-4a8d6380-9068-11ea-8c3e-b02b1b670a25.png">
-  </p>
-  
-   Browse the Batch File path and add it and Click **Finish**.
-  
-  <p align="center">
-  <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270392-4bbe9080-9068-11ea-8e6c-f9a45c0d8c2b.png">
-  </p>
-  
-  <p align="center">
-  <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270385-495c3680-9068-11ea-8f62-41308e640d57.png">
-  </p>
+      Browse the Batch File path and add it and Click **Finish**.
+     <p align="center">
+     <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270392-4bbe9080-9068-11ea-8e6c-f9a45c0d8c2b.png">
+     </p>
+
+     <p align="center">
+     <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270385-495c3680-9068-11ea-8f62-41308e640d57.png">
+     </p>
