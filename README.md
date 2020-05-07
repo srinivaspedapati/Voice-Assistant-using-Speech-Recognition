@@ -48,17 +48,19 @@
 
 3. **[win10toast](https://pypi.org/project/win10toast/#files)** - An easy-to-use Python library for displaying Windows 10 Toast Notifications which is useful for Windows GUI development.
 
-4. **[pyowm]()** - PyOWM is a client Python wrapper library for [OpenWeatherMap](https://openweathermap.org/) web APIs. It allows quickly retrieve weather updates and also other data. 
+4. **[pyowm]()** - PyOWM is a client Python wrapper library for [OpenWeatherMap](https://openweathermap.org/) web APIs. It allows quickly retrieve weather updates and also other data. However, This requires API key to Retrieve data availible at the website 
 
-5. **[newsapi](https://pypi.org/project/newsapi/#files)** - For News Updates from [News API](https://newsapi.org/).
+5. **[newsapi](https://pypi.org/project/newsapi/#files)** - For News Updates from [News API](https://newsapi.org/), The API_key can be obtained from the website.
 
 6. **[wikipedia](https://pypi.org/project/wikipedia/#files)** - Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia. Search Wikipedia, get article summaries, get data like links and images from a page, and more. 
 
-7. **[wolframalpha](https://pypi.org/project/wolframalpha/#files)** - [WolframAlpha](https://www.wolframalpha.com/) is a computational knowledge engine or answer engine that answers  our basic mathematical computational querys or general questions.
+7. **[wolframalpha](https://pypi.org/project/wolframalpha/#files)** - This module is a computational knowledge engine or answer engine that answers  our basic mathematical computational querys or general questions. The app_idan obtained from [WolframAlpha](https://www.wolframalpha.com/.
+
+8. **[oxforddictionaries]()** - This is a python wrapper for the [Oxford Dictionary](https://developer.oxforddictionaries.com/) API. The Oxford API offers a free plan with up to 3,000 requests per month with ull access to Oxford Dictionaries data, although we will need to register for an API key availible at the website.
 
 [Installing Wheel Package Guide](https://www.youtube.com/watch?v=MzV4N4XUvYc)
 
-Some of the modules come pre-installed with python.
+Some of the modules comes pre-installed with python.
 
 ## Scheduling Python Script on Start-Up:
 
