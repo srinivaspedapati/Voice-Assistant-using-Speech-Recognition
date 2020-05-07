@@ -25,26 +25,7 @@ Some of the Tasks that the Pi can perform are:
 * Answers basic general questions
 * Suggests some of the top movies to watch (source: IMDB)
 
-***
-Some of the pre-defined commands that the pi can understand are:
 
-* What _date_ is today?
-* How is the _weather_ today?
-* Tell me a _joke_
-* _Open_ Chrome // command must be preceeded with keyword 'Open'
-* _Open_ Word  // command must be preceeded with keyword 'Open'
-* Give me some _news_ Updates
-* _search_ encyclopedia // command must be preceeded with keyword 'search'
-* Tell me the meaning of '___'
-* Give me updates on _corona virus_
-* suggest me a _book_ to read
-* _pi_ what is 2 plus 3? // command must be preceeded with pi
-* _pi_ what is cos 0? // command must be preceeded with pi
-* _pi_ what is the capital of india? // command must be preceeded with pi
-* suggest me _movie_ to _watch_
-* pi _shutdown_
-
-***
 ## Requirements:
 
 1. Desktop (Windows OS)
@@ -104,3 +85,22 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
      </p>
 
 ## Troubleshooting:
+
+Some of the pre-defined commands that the pi can understand are:
+
+* What _date_ is today?
+* How is the _weather_ today?
+* Tell me a _joke_
+* _Open_ Chrome // command must be preceeded with keyword 'Open'
+* _Open_ Word  // command must be preceeded with keyword 'Open'
+* Give me some _news_ Updates
+* _search_ encyclopedia // command must be preceeded with keyword 'search'
+* Tell me the meaning of '___'
+* Give me updates on _corona virus_
+* suggest me a _book_ to read
+* _pi_ what is 2 plus 3? // command must be preceeded with pi
+* _pi_ what is cos 0? // command must be preceeded with pi
+* _pi_ what is the capital of india? // command must be preceeded with pi
+* suggest me _movie_ to _watch_
+* pi _shutdown_
+
