@@ -40,6 +40,21 @@
    <img width="580" height="550" src="https://user-images.githubusercontent.com/64901486/81280337-f1c4c780-9075-11ea-97ca-3ca229cd11ae.PNG">
    </p>
    
+## Python Libraries: 
+
+1. SpeechRecognition - Library for performing speech recognition, with support for several engines and APIs, online and offline.
+    *
+	                    Speech recognition engine/API support:
+							       * CMU Sphinx (works offline)
+									 * Google Speech Recognition
+									 * Google Cloud Speech API
+									 * Wit.ai
+									 * Microsoft Bing Voice Recognition
+									 * Houndify API
+									 * IBM Speech to Text
+									 * Snowboy Hotword Detection (works offline)
+                        The SpeechRecognition module requires [PyAudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) Module for Microphone input
+
 ## Scheduling Python Script on Start-Up:
 
 To Automate the Voice-Assistant Pi on start-up, we need to schedule the python script to run when the system starts, using following steps:
