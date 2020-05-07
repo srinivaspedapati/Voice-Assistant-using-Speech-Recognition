@@ -78,8 +78,18 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
   <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270381-46614600-9068-11ea-8b8a-d739792daa87.PNG">
   </p>
 
-  
-    
   <p align="center">
   <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270386-495c3680-9068-11ea-906d-40b6154e3160.png">
+  </p>
+
+  <p align="center">
+  <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270389-4a8d6380-9068-11ea-8c3e-b02b1b670a25.png">
+  </p>
+  
+  <p align="center">
+  <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270392-4bbe9080-9068-11ea-8e6c-f9a45c0d8c2b.png">
+  </p>
+  
+  <p align="center">
+  <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270385-495c3680-9068-11ea-8f62-41308e640d57.png">
   </p>
