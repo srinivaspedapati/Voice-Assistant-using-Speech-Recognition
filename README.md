@@ -57,9 +57,9 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
 1. Create a Batch File
 
    Open a New Text Document and add the python.exe path and the python script path to it as shown below:
-   '''javascript
+   ```javascript
    "python.exe path" "python VoiceAssistantPi.py path"
-   '''
+   ```
    ![SS1](https://user-images.githubusercontent.com/64901486/81270111-de126480-9067-11ea-873b-f6b9093003e3.PNG)
    ![SS2](https://user-images.githubusercontent.com/64901486/81270367-42352880-9068-11ea-83ea-6c90e3cdc407.PNG)
    ![SS3](https://user-images.githubusercontent.com/64901486/81270381-46614600-9068-11ea-8b8a-d739792daa87.PNG)
