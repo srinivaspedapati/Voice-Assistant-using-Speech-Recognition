@@ -1,0 +1,7 @@
+2404 Sam G.
+0505 Marcel G.
+2808 Becky A.
+1502 Marcus L.
+2105 Gitty Y.
+
+Entry Format : DDMM Name SurName
