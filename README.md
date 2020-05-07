@@ -74,12 +74,12 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
 
     Create a Basic Task & Enter the Name and Description of the Task, Click **Next**
     
-    <p align="center">
+  <p align="center">
   <img width="500" height="375" src="https://user-images.githubusercontent.com/64901486/81270381-46614600-9068-11ea-8b8a-d739792daa87.PNG">
-    </p>
+  </p>
     
     Select the Task Trigger Time
     
-    <p align="center">
+  <p align="center">
   <img width="500" height="375" src="https://user-images.githubusercontent.com/64901486/81270386-495c3680-9068-11ea-906d-40b6154e3160.png">
-    </p>
+  </p>
