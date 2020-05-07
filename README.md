@@ -1,7 +1,7 @@
 # Desktop Based Voice Assistant Pi Using Speech Recognition
 
 <p align="center">
-<img width="1110" height="300" src="https://user-images.githubusercontent.com/64901486/81292229-d6af8300-9088-11ea-8592-ac5702eb7576.png">
+<img width="1110" height="300" src="https://user-images.githubusercontent.com/64901486/81291860-35c0c800-9088-11ea-99b6-44d4f7ca4435.png">
 </p>
 
 
