@@ -58,3 +58,9 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
 
    Open a New Text Document and add the python.exe path and the python script path to it as shown below:
    ![SS1](https://user-images.githubusercontent.com/64901486/81270111-de126480-9067-11ea-873b-f6b9093003e3.PNG)
+   ![SS2](https://user-images.githubusercontent.com/64901486/81270367-42352880-9068-11ea-83ea-6c90e3cdc407.PNG)
+   ![SS3](https://user-images.githubusercontent.com/64901486/81270381-46614600-9068-11ea-8b8a-d739792daa87.PNG)
+   ![SS7](https://user-images.githubusercontent.com/64901486/81270385-495c3680-9068-11ea-8f62-41308e640d57.png)
+   ![SS4](https://user-images.githubusercontent.com/64901486/81270386-495c3680-9068-11ea-906d-40b6154e3160.png)
+   ![SS5](https://user-images.githubusercontent.com/64901486/81270389-4a8d6380-9068-11ea-8c3e-b02b1b670a25.png)
+   ![SS6](https://user-images.githubusercontent.com/64901486/81270392-4bbe9080-9068-11ea-8e6c-f9a45c0d8c2b.png)
