@@ -2,7 +2,7 @@
 
 **Pi** is a Desktop based Personal Voice-Assistant and devloped using python 3.5+ version.
 
-It works on the principle of **speech reccognition** i.e., it takes human speech as input and converts the speech-to-text using the **Google API** and can further communicate with the user, based on the command (speech) recieved. Upon recieving the command the **pi** executes the python block associated with the keyword in command. To *speak* or *communicate* back with the user it has to convert text-to-speech which is done with the help of **Microsoft Speech API** (SAPI).
+It works on the principle of **Speech-Reccognition** i.e., it takes human speech as input and converts the **speech-to-text** using the **Google API** and can further communicate with the user, based on the command (speech) recieved. Upon recieving the command the **pi** executes the python block associated with the keyword in command. To *speak* or *communicate* back with the user it has to convert **text-to-speech** which is done with the help of **Microsoft Speech API** (SAPI).
 
 Some of the Tasks that the Pi can perform are:
 
@@ -72,7 +72,7 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
   
  2. **Open Task Scheduler**
 
-    Create a Basic Task & Enter the Name and Description of the Task, Click **Next**.
+ Create a Basic Task & Enter the Name and Description of the Task, Click **Next**.
     
   <p align="center">
   <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270381-46614600-9068-11ea-8b8a-d739792daa87.PNG">
