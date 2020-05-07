@@ -6,24 +6,24 @@ It works on the principle of **speech reccognition** i.e., it takes human speech
 
 Some of the Tasks that the Pi can perform are:
 
-1. Greeting the user upon start-up
-2. Bithday notifier
-3. Reminder notifier
-4. Water reminder notification
-5. Tells current day's date and day
-6. Gives weather updates
-7. Tells any random joke
-8. Open's any desired website/URL
-9. Gives latest news feed
-10. tells about anything from wikipedia
-11. carry outs a search request using googlesearch
-12. Tells the possible meanings of the word or phrase
-13. Gives the latest updates on coronavirus in India/World (or any other specific country )
-14. Suggests some of the most read books in the current week (source: Goodreads)
-15. Launches any application
-16. Calculates any simple mathematical expression
-17. Answers basic general questions
-18. Suggests some of the top movies to watch (source: IMDB)
+* Greeting the user upon start-up
+* Bithday notifier
+* Reminder notifier
+* Water reminder notification
+* Tells current day's date and day
+* Gives weather updates
+* Tells any random joke
+* Open's any desired website/URL
+* Gives latest news feed
+* tells about anything from wikipedia
+* carry outs a search request using googlesearch
+* Tells the possible meanings of the word or phrase
+* Gives the latest updates on coronavirus in India/World (or any other specific country )
+* Suggests some of the most read books in the current week (source: Goodreads)
+* Launches any application
+* Calculates any simple mathematical expression
+* Answers basic general questions
+* Suggests some of the top movies to watch (source: IMDB)
 
 ***
 Some of the pre-defined commands that the pi can understand are:
