@@ -54,9 +54,10 @@ Some of the pre-defined commands that the pi can understand are:
 ## Scheduling Python Script on Start-Up
 
 To Automate the Voice-Assistant Pi on start-up, we need to schedule the python script to run when the system starts, using following steps:
-1.**Create a Batch File**
 
-   Open a Text Document and Add python.exe and python script path to it in the below syntax:
+1. **Create a Batch File**
+
+     Open a Text Document and Add python.exe and python script path to it in the below syntax:
    
    ```
    "python.exe path" "python_script path"
@@ -64,11 +65,11 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
   
    ![SS1](https://user-images.githubusercontent.com/64901486/81271504-d0f67500-9069-11ea-8586-b040e96daf93.PNG)
 
-   Save the Text Document as batch file using the _.bat_ extension & Double-click the batch file to run it.
+     Save the Text Document as batch file using the _.bat_ extension & Double-click the batch file to run it.
   
-  <p align="center">
-  <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270367-42352880-9068-11ea-83ea-6c90e3cdc407.PNG">
-  </p>
+     <p align="center">
+     <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270367-42352880-9068-11ea-83ea-6c90e3cdc407.PNG">
+     </p>
   
  2. **Open Task Scheduler**
 
