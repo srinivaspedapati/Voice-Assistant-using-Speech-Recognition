@@ -42,17 +42,16 @@
    
 ## Python Libraries: 
 
-1. SpeechRecognition - Library for performing speech recognition, with support for several engines and APIs, online and offline.
-    *
-	                    Speech recognition engine/API support:
+1. **SpeechRecognition** - Library for performing speech recognition, with support for several engines and APIs, online and offline.
+	                   Speech recognition engine/API support:
 							       * CMU Sphinx (works offline)
-									 * Google Speech Recognition
-									 * Google Cloud Speech API
-									 * Wit.ai
-									 * Microsoft Bing Voice Recognition
-									 * Houndify API
-									 * IBM Speech to Text
-									 * Snowboy Hotword Detection (works offline)
+							       * Google Speech Recognition
+							       * Google Cloud Speech API
+						       	       * Wit.ai
+						               * Microsoft Bing Voice Recognition
+						       	       * Houndify API
+							       * IBM Speech to Text
+							       * Snowboy Hotword Detection (works offline)
                         The SpeechRecognition module requires [PyAudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) Module for Microphone input
 
 ## Scheduling Python Script on Start-Up:
