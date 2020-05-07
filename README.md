@@ -1,5 +1,10 @@
 # Desktop Based Voice Assistant Pi Using Speech Recognition
 
+<p align="center">
+<img width="1110" height="300" src="https://user-images.githubusercontent.com/64901486/81291860-35c0c800-9088-11ea-99b6-44d4f7ca4435.png">
+</p>
+
+
 **Pi** is a Desktop based Personal **Voice-Assistant** and devloped using python 3.5+ version.
 
    It works on the principle of **Speech-Reccognition** i.e., it takes human speech as input and converts the **speech-to-text** using the **Google API** and can further communicate with the user, based on the command (speech) recieved. Upon recieving the command the **Pi** executes the python block associated with the keyword in command. 
