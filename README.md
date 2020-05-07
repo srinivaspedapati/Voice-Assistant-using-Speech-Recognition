@@ -114,7 +114,7 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
      </p>
 
 
-**Some of the pre-defined commands that the Pi can understand are:**
+## **Some of the pre-defined commands that the Pi can understand are:**
 
 * What _date_ is today?
 * How is the _weather_ today?
