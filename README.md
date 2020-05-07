@@ -149,10 +149,7 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
 <p align="center">
 <img width="1110" height="550" src="https://user-images.githubusercontent.com/64901486/81290184-3c017500-9085-11ea-8541-538e554a30ba.PNG">
 </p>
-<p align="center">
-<img width="1110" height="550" src="https://user-images.githubusercontent.com/64901486/81290186-3e63cf00-9085-11ea-96b8-d9cbad0733e1.PNG">
-</p>
 
 ## Troubleshoot:
 
-1. **[SpeechRecognition](https://pypi.org/project/SpeechRecognition/#troubleshooting)**
+**[SpeechRecognition](https://pypi.org/project/SpeechRecognition/#troubleshooting)**
