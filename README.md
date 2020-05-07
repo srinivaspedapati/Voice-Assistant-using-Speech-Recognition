@@ -54,7 +54,11 @@
 
 6. **[wikipedia](https://pypi.org/project/wikipedia/#files)** - Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia. Search Wikipedia, get article summaries, get data like links and images from a page, and more. 
 
-7. **[wolframalpha](https://pypi.org/project/wolframalpha/#files)** - [WolframAlpha](https://www.wolframalpha.com/) is a computational knowledge engine or answer engine that answers  our basic mathimatical computation or querys.
+7. **[wolframalpha](https://pypi.org/project/wolframalpha/#files)** - [WolframAlpha](https://www.wolframalpha.com/) is a computational knowledge engine or answer engine that answers  our basic mathematical computational querys or general questions.
+
+[nstalling Wheel Package Guide](https://www.youtube.com/watch?v=MzV4N4XUvYc)
+
+Some of the modules come pre-installed with python.
 
 ## Scheduling Python Script on Start-Up:
 
