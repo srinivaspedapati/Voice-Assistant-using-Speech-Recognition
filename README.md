@@ -46,7 +46,15 @@
 
 2. **[win32com](https://pypi.org/project/pywin32/)** - This module allows us to easily access Window’s Component Object Model (COM) and control Microsoft applications via python. In this script, we use this module to invoke SAPI.
 
-3. 
+3. **[win10toast](https://pypi.org/project/win10toast/#files)** - An easy-to-use Python library for displaying Windows 10 Toast Notifications which is useful for Windows GUI development.
+
+4. **[pyowm]()** - PyOWM is a client Python wrapper library for [OpenWeatherMap](https://openweathermap.org/) web APIs. It allows quickly retrieve weather updates and also other data. 
+
+5. **[newsapi](https://pypi.org/project/newsapi/#files)** - For News Updates from [News API](https://newsapi.org/).
+
+6. **[wikipedia](https://pypi.org/project/wikipedia/#files)** - Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia. Search Wikipedia, get article summaries, get data like links and images from a page, and more. 
+
+7. **[wolframalpha](https://pypi.org/project/wolframalpha/#files)** - [WolframAlpha](https://www.wolframalpha.com/) is a computational knowledge engine or answer engine that answers  our basic mathimatical computation or querys.
 
 ## Scheduling Python Script on Start-Up:
 
