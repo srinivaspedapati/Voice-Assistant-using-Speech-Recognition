@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Desktop Based Voice Assistant Pi Using Speech Recognition | Desktop-Based-Voice-Assistant-Using-Speech-Recognition</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Desktop Based Voice Assistant Pi Using Speech Recognition" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Desktop based Personal Voice-Assistant Pi" />
+<meta property="og:description" content="Desktop based Personal Voice-Assistant Pi" />
+<link rel="canonical" href="https://srinivaspedapati.github.io/Desktop-Based-Voice-Assistant-Using-Speech-Recognition/" />
+<meta property="og:url" content="https://srinivaspedapati.github.io/Desktop-Based-Voice-Assistant-Using-Speech-Recognition/" />
+<meta property="og:site_name" content="Desktop-Based-Voice-Assistant-Using-Speech-Recognition" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"Desktop Based Voice Assistant Pi Using Speech Recognition","url":"https://srinivaspedapati.github.io/Desktop-Based-Voice-Assistant-Using-Speech-Recognition/","name":"Desktop-Based-Voice-Assistant-Using-Speech-Recognition","description":"Desktop based Personal Voice-Assistant Pi","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="/Desktop-Based-Voice-Assistant-Using-Speech-Recognition/assets/css/style.css?v=4f4f0c7a9f420f1f65ed76b98c7a8bd74b842f9a">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Desktop-Based-Voice-Assistant-Using-Speech-Recognition</h1>
+      <h2 class="project-tagline">Desktop based Personal Voice-Assistant Pi</h2>
+      
+        <a href="https://github.com/srinivaspedapati/Desktop-Based-Voice-Assistant-Using-Speech-Recognition" class="btn">View on GitHub</a>
+      
+      
+    </section>
+
+    <section class="main-content">
+      <h1 id="desktop-based-voice-assistant-pi-using-speech-recognition">Desktop Based Voice Assistant Pi Using Speech Recognition</h1>
+
+<p align="center">
+<img width="1110" height="300" src="https://user-images.githubusercontent.com/64901486/81291860-35c0c800-9088-11ea-99b6-44d4f7ca4435.png" />
+</p>
+
+<p><strong>Pi</strong> is a Desktop based Personal <strong>Voice-Assistant</strong> and devloped using python 3.5+ version.</p>
+
+<p>It works on the principle of <strong>Speech-Reccognition</strong> i.e., it takes human speech as input and converts the <strong>speech-to-text</strong> using the <strong>Google API</strong> and can further communicate with the user, based on the command (speech) recieved. Upon recieving the command the <strong>Pi</strong> executes the python block associated with the keyword in command.</p>
+
+<p>To <em>speak</em> or <em>communicate</em> back with the user it has to convert <strong>text-to-speech</strong> which is done with the help of <strong>Microsoft Speech API</strong> (SAPI).</p>
+
+<p><strong>Some of the Tasks that the Pi can perform are:</strong></p>
+
+<ul>
+  <li>Greeting the user upon start-up</li>
+  <li>Bithday notifier</li>
+  <li>Reminder notifier</li>
+  <li>Water reminder notification</li>
+  <li>Tells current day’s date and day</li>
+  <li>Gives weather updates</li>
+  <li>Tells any random joke</li>
+  <li>Open’s any desired website/URL</li>
+  <li>Gives latest news feed</li>
+  <li>tells about anything from wikipedia</li>
+  <li>carry outs a search request using googlesearch</li>
+  <li>Tells the possible meanings of the word or phrase</li>
+  <li>Gives the latest updates on coronavirus in India/World (or any other specific country )</li>
+  <li>Suggests some of the most read books in the current week (source: Goodreads)</li>
+  <li>Launches any application</li>
+  <li>Calculates any simple mathematical expression</li>
+  <li>Answers basic general questions</li>
+  <li>Suggests some of the top movies to watch (source: IMDB)</li>
+</ul>
+
+<h2 id="requirements">Requirements:</h2>
+
+<ol>
+  <li>Desktop (Windows OS)</li>
+  <li>Python version supported: 3.5+</li>
+  <li>Microsoft Speech API [<a href="https://www.microsoft.com/en-in/download/details.aspx?id=27226">SAPI</a>]</li>
+</ol>
+
+<h2 id="working">Working:</h2>
+
+<p align="center">
+   <img width="580" height="600" src="https://user-images.githubusercontent.com/64901486/81293169-7d485380-908a-11ea-974c-0a7330d74c9d.PNG" />
+   </p>
+
+<h2 id="python-libraries">Python Libraries:</h2>
+
+<ol>
+  <li>
+    <p><a href="https://pypi.org/project/SpeechRecognition/#files"><strong>SpeechRecognition</strong></a> - Library for performing speech recognition, with support for several engines and APIs, online and offline. The SpeechRecognition module requires <a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio">PyAudio</a> Module for Microphone input.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://pypi.org/project/pywin32/">win32com</a></strong> - This module allows us to easily access Window’s Component Object Model (COM) and control Microsoft applications via python. In this script, we use this module to invoke SAPI.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://pypi.org/project/win10toast/#files">win10toast</a></strong> - An easy-to-use Python library for displaying Windows 10 Toast Notifications which is useful for Windows GUI development.</p>
+  </li>
+  <li>
+    <p><strong><a href="">pyowm</a></strong> - PyOWM is a client Python wrapper library for <a href="https://openweathermap.org/">OpenWeatherMap</a> web APIs. It allows quickly retrieve weather updates and also other data. However, This requires API key to Retrieve data availible at the website</p>
+  </li>
+  <li>
+    <p><strong><a href="https://pypi.org/project/newsapi/#files">newsapi</a></strong> - For News Updates from <a href="https://newsapi.org/">News API</a>, The API_key can be obtained from the website.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://pypi.org/project/wikipedia/#files">wikipedia</a></strong> - Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia. Search Wikipedia, get article summaries, get data like links and images from a page, and more.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://pypi.org/project/wolframalpha/#files">wolframalpha</a></strong> - This module is a computational knowledge engine or answer engine that answers  our basic mathematical computational querys or general questions. The app_idan obtained from [WolframAlpha](https://www.wolframalpha.com/.</p>
+  </li>
+  <li>
+    <p><strong><a href="">oxforddictionaries</a></strong> - This is a python wrapper for the <a href="https://developer.oxforddictionaries.com/">Oxford Dictionary</a> API. The Oxford API offers a free plan with up to 3,000 requests per month with ull access to Oxford Dictionaries data, although we will need to register for an API key availible at the website.</p>
+  </li>
+</ol>
+
+<p><a href="https://www.youtube.com/watch?v=MzV4N4XUvYc">Installing Wheel Package Guide</a></p>
+
+<p>Some of the modules comes pre-installed with python.</p>
+
+<h2 id="scheduling-python-script-on-start-up">Scheduling Python Script on Start-Up:</h2>
+
+<p>To Automate the Voice-Assistant Pi on start-up, we need to schedule the python script to run when the system starts, using following steps:</p>
+
+<ol>
+  <li>
+    <p><strong>Create a Batch File</strong></p>
+
+    <p>Open a Text Document and Add python.exe and python script path to it in the below syntax:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"python.exe path" "python_script path"
+</code></pre></div>    </div>
+
+    <p><img src="https://user-images.githubusercontent.com/64901486/81271504-d0f67500-9069-11ea-8586-b040e96daf93.PNG" alt="SS1" /></p>
+
+    <p>Save the Text Document as batch file using the <em>.bat</em> extension &amp; Double-click the batch file to run it.</p>
+
+    <p align="center">
+  <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270367-42352880-9068-11ea-83ea-6c90e3cdc407.PNG" />
+  </p>
+  </li>
+  <li>
+    <p><strong>Open Task Scheduler</strong></p>
+
+    <p>Create a Basic Task &amp; Enter the Name and Description of the Task, Click <strong>Next</strong>.</p>
+    <p align="center">
+  <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270381-46614600-9068-11ea-8b8a-d739792daa87.PNG" />
+  </p>
+
+    <p>Click <strong>Next</strong>. Select the Task Trigger Time, as <strong>When computer turns on</strong>, Click <strong>Next</strong>.</p>
+    <p align="center">
+ <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270386-495c3680-9068-11ea-906d-40b6154e3160.png" />
+ </p>
+
+    <p>Now Select the Action to Perform, as <strong>start a program</strong>, Click <strong>Next</strong>.</p>
+    <p align="center">
+ <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270389-4a8d6380-9068-11ea-8c3e-b02b1b670a25.png" />
+ </p>
+
+    <p>Browse the Batch File path and add it and Click <strong>Finish</strong>.</p>
+    <p align="center">
+ <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270392-4bbe9080-9068-11ea-8e6c-f9a45c0d8c2b.png" />
+ </p>
+
+    <p align="center">
+ <img width="550" height="375" src="https://user-images.githubusercontent.com/64901486/81270385-495c3680-9068-11ea-8f62-41308e640d57.png" />
+ </p>
+  </li>
+</ol>
+
+<h2 id="some-of-the-pre-defined-commands-that-the-pi-can-understand-are"><strong>Some of the pre-defined commands that the Pi can understand are:</strong></h2>
+
+<ul>
+  <li>What <em>date</em> is today?</li>
+  <li>How is the <em>weather</em> today?</li>
+  <li>Tell me a <em>joke</em></li>
+  <li><em>Open</em> Chrome // command must be preceeded with keyword ‘Open’</li>
+  <li><em>Open</em> Word  // command must be preceeded with keyword ‘Open’</li>
+  <li>Give me some <em>news</em> Updates</li>
+  <li><em>search</em> encyclopedia // command must be preceeded with keyword ‘search’</li>
+  <li>Tell me the meaning of ‘___’</li>
+  <li>Give me updates on <em>corona virus</em></li>
+  <li>suggest me a <em>book</em> to read</li>
+  <li><em>pi</em> what is 2 plus 3? // command must be preceeded with pi</li>
+  <li><em>pi</em> what is cos 0? // command must be preceeded with pi</li>
+  <li><em>pi</em> what is the capital of india? // command must be preceeded with pi</li>
+  <li>suggest me <em>movie</em> to <em>watch</em></li>
+  <li>pi <em>shutdown</em></li>
+</ul>
+
+<h2 id="screenshots">Screenshots:</h2>
+
+<p align="center">
+<img width="1110" height="550" src="https://user-images.githubusercontent.com/64901486/81290169-3572fd80-9085-11ea-86ea-8d191739e1aa.PNG" />
+</p>
+<p align="center">
+<img width="1110" height="550" src="https://user-images.githubusercontent.com/64901486/81290192-428fec80-9085-11ea-90de-1b2d160bf304.PNG" />
+</p>
+<p align="center">
+<img width="1110" height="550" src="https://user-images.githubusercontent.com/64901486/81290176-386dee00-9085-11ea-80f2-b30219f0da70.PNG" />
+</p>
+<p align="center">
+<img width="1110" height="550" src="https://user-images.githubusercontent.com/64901486/81290181-3ad04800-9085-11ea-9377-65dd6400bce1.PNG" />
+</p>
+<p align="center">
+<img width="1110" height="550" src="https://user-images.githubusercontent.com/64901486/81290184-3c017500-9085-11ea-8541-538e554a30ba.PNG" />
+</p>
+
+<h2 id="troubleshoot">Troubleshoot:</h2>
+
+<p><strong><a href="https://pypi.org/project/SpeechRecognition/#troubleshooting">[1]. SpeechRecognition</a></strong></p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/srinivaspedapati/Desktop-Based-Voice-Assistant-Using-Speech-Recognition">Desktop-Based-Voice-Assistant-Using-Speech-Recognition</a> is maintained by <a href="https://github.com/srinivaspedapati">srinivaspedapati</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </section>
+
+    
+  </body>
+</html>
