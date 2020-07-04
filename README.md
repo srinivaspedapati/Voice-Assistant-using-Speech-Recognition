@@ -153,3 +153,5 @@ To Automate the Voice-Assistant Pi on start-up, we need to schedule the python s
 ## Troubleshoot:
 
 **[[1]. SpeechRecognition](https://pypi.org/project/SpeechRecognition/#troubleshooting)**
+
+# Licensed under [MIT License](LICENSE)
